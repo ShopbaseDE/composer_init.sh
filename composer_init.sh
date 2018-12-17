@@ -4,7 +4,7 @@
 # Author: Hendrik Legge <hendrik.legge@themepoint.de> <https://github.com/ShopbaseDE>
 
 if [ "$1" = "help" ]; then
-	echo "composer_init.sh [ 'lib' | 'package' ] [ USER ] [ PROJECT ] [ DESCRIPTION ] [ LICENSE ]"
+	echo "composer_init.sh [ TYPE ] [ USER ] [ PROJECT ] [ DESCRIPTION ] [ LICENSE ]"
 	exit
 fi
 
